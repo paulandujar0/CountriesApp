@@ -17,7 +17,7 @@ export interface Country {
   region:       string;
   subregion:    string;
   languages:    Languages;
-  translations: { [key: string]: Translation | undefined };
+  translations: { [key: string]: Translation };
   latlng:       number[];
   landlocked:   boolean;
   borders?:     string[];
